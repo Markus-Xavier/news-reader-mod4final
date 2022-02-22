@@ -6,9 +6,12 @@ import AppHeader from '../AppHeader/AppHeader';
 
 function App() {
   return (
+    <>
+    <AppHeader />
     <Routes>
       <Route path='/' element={<h1>Home</h1>}/>
     </Routes>
+    </>
   );
 }
 
