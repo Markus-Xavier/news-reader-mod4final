@@ -19,4 +19,8 @@ const createArticleID = (articleShortURL) => {
   return articleShortURL.substring(articleShortURL.lastIndexOf("/") + 1, articleShortURL.length);
 }
 
-export { createListFromArray, filterDataByProperty, createArticleID };
+const findArticleByID = (articles, id) => {
+  return articles.find(article => createArticleID(article.short_url) === id); 
+}
+
+export { createListFromArray, filterDataByProperty, createArticleID, findArticleByID };
