@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import AppHeader from '../AppHeader/AppHeader';
 import MainPage from '../MainPage/MainPage';
+import DetailPage from '../DetailPage/DetailPage';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
     <AppHeader />
     <Routes>
       <Route path='/' element={<MainPage />}/>
-      <Route path='/:id' element={<h1>Hi id</h1>}/>
+      <Route path='/:id' element={<DetailPage />}/>
     </Routes>
     </>
   );
