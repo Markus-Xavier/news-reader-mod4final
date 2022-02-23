@@ -15,4 +15,8 @@ const filterDataByProperty = (dataSet, property, compareItem) => {
   return dataSet.filter(data => data[property] === compareItem);
 }
 
-export { createListFromArray, filterDataByProperty };
+const createArticleID = (articleShortURL) => {
+  return articleShortURL.substring(articleShortURL.lastIndexOf("/") + 1, articleShortURL.length);
+}
+
+export { createListFromArray, filterDataByProperty, createArticleID };

@@ -1,9 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ArticlePreview.css';
 
-export default function ArticlePreview({ title, publishDate, writtenBy, previewImage }) {
-  console.log(title)
+export default function ArticlePreview({ id, title, publishDate, writtenBy, previewImage }) {
   return (
-    <h1>Dog Boy</h1>
+    <Link to={`/${id}`}>
+      <>
+        <p>{title}</p>
+        <p>{writtenBy}</p>
+        <p>{publishDate}</p>
+        <img src={previewImage.url}/>
+      </>
+    </Link>
   )
 }
