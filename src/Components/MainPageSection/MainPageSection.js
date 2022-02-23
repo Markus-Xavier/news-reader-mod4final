@@ -4,7 +4,7 @@ import ArticlePreview from "../ArticlePreview/ArticlePreview";
 
 export default function MainPageSection({ sectionTitle, articles }) {
   const createArticlePreviews = () => {
-
+    
   }
 
   return(
