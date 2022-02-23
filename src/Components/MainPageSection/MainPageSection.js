@@ -19,7 +19,7 @@ export default function MainPageSection({ filterOption, sectionTitle, articles }
 
   return(
     <>
-      <h1>{sectionTitle}</h1>
+      <h1 className="main-page-section_header">{sectionTitle}</h1>
       {articlePreviews}
     </>
   )
