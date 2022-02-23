@@ -11,4 +11,8 @@ const createListFromArray = (dataSet, property, repeat) => {
   return [];
 };
 
-export { createListFromArray };
+const filterDataByProperty = (dataSet, property, compareItem) => {
+  return dataSet.filter(data => data[property] === compareItem);
+}
+
+export { createListFromArray, filterDataByProperty };
