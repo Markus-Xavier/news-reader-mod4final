@@ -4,6 +4,7 @@ import { getStories } from "../../Services/API/api";
 import { createListFromArray, filterDataByProperty } from "../../Services/DataManagement/dataManagement";
 import MainPageHeader from "../MainPageHeader/MainPageHeader";
 import MainPageSection from "../MainPageSection/MainPageSection";
+import CategoryFilter from "../CategoryFilter/CategoryFilter";
 
 export default function MainPage() {
   const [filterOption, setFilterOption] = useState('');
@@ -28,9 +29,14 @@ export default function MainPage() {
     }
   };
 
+  const updateFilterOption = (filterQuery) => {
+    setFilterOption(filterQuery);
+  }
+
   return (
     <>
       <MainPageHeader filterOption={filterOption}/>
+      <CategoryFilter updateFilter={updateFilterOption}/>
       {createPageSections(createListFromArray(articles, 'section'))}
     </>
   )
