@@ -24,7 +24,7 @@ export default function MainPage() {
 
   const createPageSections = (sectionTitles) => {
     if(sectionTitles) {
-      return sectionTitles.map(sectionTitle => <MainPageSection sectionTitle={sectionTitle} articles={filterDataByProperty(articles, 'section', sectionTitle)}/>);
+      return sectionTitles.map(sectionTitle => <MainPageSection filterOption={filterOption ? filterOption : 'home'} sectionTitle={sectionTitle} articles={filterDataByProperty(articles, 'section', sectionTitle)}/>);
     }
   };
 

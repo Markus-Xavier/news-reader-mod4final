@@ -12,7 +12,7 @@ function App() {
     <AppHeader />
     <Routes>
       <Route path='/' element={<MainPage />}/>
-      <Route path='/:id' element={<DetailPage />}/>
+      <Route path='/:category/:id' element={<DetailPage />}/>
     </Routes>
     </>
   );
