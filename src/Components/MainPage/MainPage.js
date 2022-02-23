@@ -10,7 +10,7 @@ export default function MainPage() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    setFilterOption('')
+    setFilterOption('');
     getStories('home')
       .then(data => setArticles(data.results));
   }, []);
@@ -20,7 +20,7 @@ export default function MainPage() {
       getStories(filterOption)
         .then(data => setArticles(data.results));
     }
-  }, [filterOption])
+  }, [filterOption]);
 
   const createPageSections = (sectionTitles) => {
     if(sectionTitles) {

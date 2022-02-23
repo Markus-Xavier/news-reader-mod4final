@@ -9,6 +9,6 @@ const createListFromArray = (dataSet, property, repeat) => {
   }
 
   return [];
-}
+};
 
-export { createListFromArray }
+export { createListFromArray };
