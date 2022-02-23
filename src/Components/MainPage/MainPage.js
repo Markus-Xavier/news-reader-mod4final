@@ -15,6 +15,13 @@ export default function MainPage() {
       .then(data => setArticles(data.results));
   }, []);
 
+  useEffect(() => {
+    if(filterOption) {
+      getStories(filterOption)
+        .then(data => setArticles(data.results));
+    }
+  }, [filterOption])
+
   const createPageSections = (sectionTitles) => {
     if(sectionTitles) {
       return sectionTitles.map(title => <MainPageSection sectionTitle={title}/>);
