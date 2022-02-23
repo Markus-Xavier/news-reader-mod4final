@@ -4,6 +4,6 @@ import './AppHeader.css';
 
 export default function AppHeader() {
   return (
-    <header className="app-header_display"><Link to="/">news reader</Link></header>
+    <header className="app-header_display"><Link to="/">NEWS READER</Link></header>
   )
 }
