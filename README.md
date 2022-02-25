@@ -1,5 +1,5 @@
 <h1 align="center">
-NYT News Reader 
+News Reader Mod 4 Final 
 </h1>  
 
 ## Table of Contents
