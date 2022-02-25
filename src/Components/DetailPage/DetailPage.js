@@ -18,7 +18,7 @@ export default function DetailPage() {
         <>
       <h1>{articleData.title}</h1>
       <p>{articleData.byline}</p>
-      <img src={articleData.multimedia[1].url}/>
+      <img className="detail_img" src={articleData.multimedia[1].url}/>
       <p>{articleData.multimedia[1].caption} copyright: {articleData.multimedia[1].copyright}</p>
       <p>{articleData.abstract}</p>
         </>)
