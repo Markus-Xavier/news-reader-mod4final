@@ -8,6 +8,6 @@ export default function MainPageHeader({ filterOption }) {
   }
 
   return (
-    <h1>{headerText}</h1>
+    <h1 className="main-page_header">{headerText}</h1>
   )
 }
