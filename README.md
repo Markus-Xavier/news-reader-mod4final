@@ -41,7 +41,7 @@ After the allotted time I had one review session and was tasked to make changes 
 1. Fork and Clone the repo
 2. Install packages: `npm install`
 3. Start up the local server: `npm start`
-4. Run `npm run cypress` to test
+4. Go to `http://localhost:3000/` to view the webpage
 
 ### <ins>Contributors</ins>
 ![LinkedIn][LinkedIn-img] [Markus Rossio](https://www.linkedin.com/in/markus-rossio/)
