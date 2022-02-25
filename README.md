@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<h1 align="center">
+NYT News Reader 
+</h1>  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Overview](#overview)
+- [Illustrations](#illustrations)
+- [Project Management](#project-management)
+- [Dev Setup](#dev-setup)
+- [Technologies](#technologies)
+- [Contributors](#contributors)
 
-## Available Scripts
+### <ins>Overview</ins>
 
-In the project directory, you can run:
+NYT News Reader is a practice take-home challenge for The Turing School of Software and Design. I was tasked with creating a news reader application similar using the NYT Top Stories API. I was given an 8 hour time frame to create an MVP which included:
+- Displaying a list of articles
+- A "detailed" view for each article (as opposed to a summary/list view)
+- Articles in the list must link to a detailed view of the article
+- Some sort of search, filter, OR sort (I choose a filter)
+After the allotted time I had one review session and was tasked to make changes as the reviewer felt fit. 
 
-### `npm start`
+### <ins>Illustrations</ins>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="600" alt="landing-desktop" src="https://user-images.githubusercontent.com/48008726/155691364-93392e1b-0d39-4179-b21c-93d75159ea90.png">  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="600" alt="detailed-desktop" src="https://user-images.githubusercontent.com/48008726/155691354-3f57a8e4-b754-40cc-b59f-b9ad79783e0c.png">
 
-### `npm test`
+<img width="200" alt="Screen Shot 2022-02-23 at 4 12 32 PM" src="https://user-images.githubusercontent.com/48008726/155691372-55e80381-7fcb-46de-a8c6-3adf1d4c1d7d.png"><img width="200" alt="detailed-mobile" src="https://user-images.githubusercontent.com/48008726/155691371-4e3ef0b7-934e-4de1-b2c9-51d8076106cd.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### <ins>Project Management</ins>
 
-### `npm run build`
+- [Project Board](https://github.com/Markus-Xavier/news-reader-mod4final/projects/1)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="600" alt="main-view-wireframe" src="https://user-images.githubusercontent.com/48008726/155692318-da515754-d782-4da3-9a1a-e3410a5b277d.png">
+<img width="600" alt="filter-view-wireframe" src="https://user-images.githubusercontent.com/48008726/155692312-9e027785-6c1f-49ea-bfc3-4bf8b3459edc.png">
+<img width="600" alt="detail-view-wireframe" src="https://user-images.githubusercontent.com/48008726/155692308-c899dec4-9f12-4496-842d-9a22d54f43b3.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### <ins>Dev Setup</ins>
 
-### `npm run eject`
+1. Fork and Clone the repo
+2. Install packages: `npm install`
+3. Start up the local server: `npm start`
+4. Run `npm run cypress` to test
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### <ins>Contributors</ins>
+![LinkedIn][LinkedIn-img] [Markus Rossio](https://www.linkedin.com/in/markus-rossio/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Github][Github-img] [Markus Rossio](https://github.com/Markus-Xavier)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Markdown link & img dfn's -->
+<!-- ### <ins>Contributors</ins> -->
+[LinkedIn-img]: https://img.shields.io/badge/LinkedIn-0077B5.svg??style=for-the-badge&logo=linkedin&logoColor=white
