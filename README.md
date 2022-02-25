@@ -49,5 +49,10 @@ After the allotted time I had one review session and was tasked to make changes 
 ![Github][Github-img] [Markus Rossio](https://github.com/Markus-Xavier)
 
 <!-- Markdown link & img dfn's -->
+
+<!-- #### Development -->
+[Git-img]: https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white
+[GitHub-img]: https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github
+
 <!-- ### <ins>Contributors</ins> -->
 [LinkedIn-img]: https://img.shields.io/badge/LinkedIn-0077B5.svg??style=for-the-badge&logo=linkedin&logoColor=white
